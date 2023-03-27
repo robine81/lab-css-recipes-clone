@@ -13,12 +13,74 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  position: relative;
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+  bottom: 50px;
 }
 
 /* STYLES */
-/* Write your CSS below */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero_image {
+  width: 100%;
+  height: auto;
+}
+
+/*.container {
+  display: flex;
+}*/
+ 
+.hero .hero_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+  font-size: 80px;
+}
+
+/* Divider */
+hr.divider {
+  border-top: 1px solid #bbb;
+}
+
+.section_text {
+  position: relative; 
+  top: 50px;
+  left: 80px;
+  /*right: 00px;*/
+  line-height: normal;
+  font-size: 18px;
+  margin: 0;
+  color: rgb(108, 107, 107);
+}
+
+.list_format {
+  list-style-type: "- ";
+}
+
+.instruction_image {
+  position: relative;
+  width: 40%;
+  height: auto;
+  left: 40%;
+}
+
+#ingredients {
+  top: 80px;
+}
+
+#directions {
+  top: 80px;
+}
